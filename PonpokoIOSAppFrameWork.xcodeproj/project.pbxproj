@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A61C4241153AA29C0048B53C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61C4240153AA29C0048B53C /* UIKit.framework */; };
+		A61C4243153AA29C0048B53C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61C4242153AA29C0048B53C /* Foundation.framework */; };
+		A61C4245153AA29C0048B53C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61C4244153AA29C0048B53C /* CoreGraphics.framework */; };
+		A61C424B153AA29C0048B53C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A61C4249153AA29C0048B53C /* InfoPlist.strings */; };
+		A61C424D153AA29C0048B53C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A61C424C153AA29C0048B53C /* main.m */; };
+		A61C4251153AA29C0048B53C /* PIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A61C4250153AA29C0048B53C /* PIAppDelegate.m */; };
+		A61C4259153AA29C0048B53C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61C4258153AA29C0048B53C /* SenTestingKit.framework */; };
+		A61C425A153AA29C0048B53C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61C4240153AA29C0048B53C /* UIKit.framework */; };
+		A61C425B153AA29C0048B53C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A61C4242153AA29C0048B53C /* Foundation.framework */; };
+		A61C4263153AA29C0048B53C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A61C4261153AA29C0048B53C /* InfoPlist.strings */; };
+		A61C4266153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A61C4265153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A61C425C153AA29C0048B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A61C4233153AA29C0048B53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A61C423B153AA29C0048B53C;
+			remoteInfo = PonpokoIOSAppFrameWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A61C423C153AA29C0048B53C /* PonpokoIOSAppFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PonpokoIOSAppFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61C4240153AA29C0048B53C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A61C4242153AA29C0048B53C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A61C4244153AA29C0048B53C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A61C4248153AA29C0048B53C /* PonpokoIOSAppFrameWork-Info.plist */ = {isa = PBXFileReference; path = "PonpokoIOSAppFrameWork-Info.plist"; sourceTree = "<group>"; };
+		A61C424A153AA29C0048B53C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A61C424C153AA29C0048B53C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A61C424E153AA29C0048B53C /* PonpokoIOSAppFrameWork-Prefix.pch */ = {isa = PBXFileReference; path = "PonpokoIOSAppFrameWork-Prefix.pch"; sourceTree = "<group>"; };
+		A61C424F153AA29C0048B53C /* PIAppDelegate.h */ = {isa = PBXFileReference; path = PIAppDelegate.h; sourceTree = "<group>"; };
+		A61C4250153AA29C0048B53C /* PIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PIAppDelegate.m; sourceTree = "<group>"; };
+		A61C4257153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PonpokoIOSAppFrameWorkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A61C4258153AA29C0048B53C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A61C4260153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests-Info.plist */ = {isa = PBXFileReference; path = "PonpokoIOSAppFrameWorkTests-Info.plist"; sourceTree = "<group>"; };
+		A61C4262153AA29C0048B53C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A61C4264153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.h */ = {isa = PBXFileReference; path = PonpokoIOSAppFrameWorkTests.h; sourceTree = "<group>"; };
+		A61C4265153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PonpokoIOSAppFrameWorkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A61C4239153AA29C0048B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61C4241153AA29C0048B53C /* UIKit.framework in Frameworks */,
+				A61C4243153AA29C0048B53C /* Foundation.framework in Frameworks */,
+				A61C4245153AA29C0048B53C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61C4253153AA29C0048B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61C4259153AA29C0048B53C /* SenTestingKit.framework in Frameworks */,
+				A61C425A153AA29C0048B53C /* UIKit.framework in Frameworks */,
+				A61C425B153AA29C0048B53C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A61C4231153AA29C0048B53C = {
+			isa = PBXGroup;
+			children = (
+				A61C4246153AA29C0048B53C /* PonpokoIOSAppFrameWork */,
+				A61C425E153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests */,
+				A61C423F153AA29C0048B53C /* Frameworks */,
+				A61C423D153AA29C0048B53C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A61C423D153AA29C0048B53C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A61C423C153AA29C0048B53C /* PonpokoIOSAppFrameWork.app */,
+				A61C4257153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A61C423F153AA29C0048B53C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A61C4240153AA29C0048B53C /* UIKit.framework */,
+				A61C4242153AA29C0048B53C /* Foundation.framework */,
+				A61C4244153AA29C0048B53C /* CoreGraphics.framework */,
+				A61C4258153AA29C0048B53C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61C4246153AA29C0048B53C /* PonpokoIOSAppFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				A61C424F153AA29C0048B53C /* PIAppDelegate.h */,
+				A61C4250153AA29C0048B53C /* PIAppDelegate.m */,
+				A61C4247153AA29C0048B53C /* Supporting Files */,
+			);
+			path = PonpokoIOSAppFrameWork;
+			sourceTree = "<group>";
+		};
+		A61C4247153AA29C0048B53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61C4248153AA29C0048B53C /* PonpokoIOSAppFrameWork-Info.plist */,
+				A61C4249153AA29C0048B53C /* InfoPlist.strings */,
+				A61C424C153AA29C0048B53C /* main.m */,
+				A61C424E153AA29C0048B53C /* PonpokoIOSAppFrameWork-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A61C425E153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				A61C4264153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.h */,
+				A61C4265153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.m */,
+				A61C425F153AA29C0048B53C /* Supporting Files */,
+			);
+			path = PonpokoIOSAppFrameWorkTests;
+			sourceTree = "<group>";
+		};
+		A61C425F153AA29C0048B53C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61C4260153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests-Info.plist */,
+				A61C4261153AA29C0048B53C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A61C423B153AA29C0048B53C /* PonpokoIOSAppFrameWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61C4269153AA29C0048B53C /* Build configuration list for PBXNativeTarget "PonpokoIOSAppFrameWork" */;
+			buildPhases = (
+				A61C4238153AA29C0048B53C /* Sources */,
+				A61C4239153AA29C0048B53C /* Frameworks */,
+				A61C423A153AA29C0048B53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PonpokoIOSAppFrameWork;
+			productName = PonpokoIOSAppFrameWork;
+			productReference = A61C423C153AA29C0048B53C /* PonpokoIOSAppFrameWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A61C4256153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A61C426C153AA29C0048B53C /* Build configuration list for PBXNativeTarget "PonpokoIOSAppFrameWorkTests" */;
+			buildPhases = (
+				A61C4252153AA29C0048B53C /* Sources */,
+				A61C4253153AA29C0048B53C /* Frameworks */,
+				A61C4254153AA29C0048B53C /* Resources */,
+				A61C4255153AA29C0048B53C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A61C425D153AA29C0048B53C /* PBXTargetDependency */,
+			);
+			name = PonpokoIOSAppFrameWorkTests;
+			productName = PonpokoIOSAppFrameWorkTests;
+			productReference = A61C4257153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A61C4233153AA29C0048B53C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PI;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A61C4236153AA29C0048B53C /* Build configuration list for PBXProject "PonpokoIOSAppFrameWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A61C4231153AA29C0048B53C;
+			productRefGroup = A61C423D153AA29C0048B53C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A61C423B153AA29C0048B53C /* PonpokoIOSAppFrameWork */,
+				A61C4256153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A61C423A153AA29C0048B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61C424B153AA29C0048B53C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61C4254153AA29C0048B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61C4263153AA29C0048B53C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A61C4255153AA29C0048B53C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A61C4238153AA29C0048B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61C424D153AA29C0048B53C /* main.m in Sources */,
+				A61C4251153AA29C0048B53C /* PIAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A61C4252153AA29C0048B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A61C4266153AA29C0048B53C /* PonpokoIOSAppFrameWorkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A61C425D153AA29C0048B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A61C423B153AA29C0048B53C /* PonpokoIOSAppFrameWork */;
+			targetProxy = A61C425C153AA29C0048B53C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A61C4249153AA29C0048B53C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61C424A153AA29C0048B53C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A61C4261153AA29C0048B53C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A61C4262153AA29C0048B53C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A61C4267153AA29C0048B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A61C4268153AA29C0048B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A61C426A153AA29C0048B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PonpokoIOSAppFrameWork/PonpokoIOSAppFrameWork-Prefix.pch";
+				INFOPLIST_FILE = "PonpokoIOSAppFrameWork/PonpokoIOSAppFrameWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A61C426B153AA29C0048B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PonpokoIOSAppFrameWork/PonpokoIOSAppFrameWork-Prefix.pch";
+				INFOPLIST_FILE = "PonpokoIOSAppFrameWork/PonpokoIOSAppFrameWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A61C426D153AA29C0048B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PonpokoIOSAppFrameWork.app/PonpokoIOSAppFrameWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PonpokoIOSAppFrameWork/PonpokoIOSAppFrameWork-Prefix.pch";
+				INFOPLIST_FILE = "PonpokoIOSAppFrameWorkTests/PonpokoIOSAppFrameWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A61C426E153AA29C0048B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PonpokoIOSAppFrameWork.app/PonpokoIOSAppFrameWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PonpokoIOSAppFrameWork/PonpokoIOSAppFrameWork-Prefix.pch";
+				INFOPLIST_FILE = "PonpokoIOSAppFrameWorkTests/PonpokoIOSAppFrameWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A61C4236153AA29C0048B53C /* Build configuration list for PBXProject "PonpokoIOSAppFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61C4267153AA29C0048B53C /* Debug */,
+				A61C4268153AA29C0048B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A61C4269153AA29C0048B53C /* Build configuration list for PBXNativeTarget "PonpokoIOSAppFrameWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61C426A153AA29C0048B53C /* Debug */,
+				A61C426B153AA29C0048B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A61C426C153AA29C0048B53C /* Build configuration list for PBXNativeTarget "PonpokoIOSAppFrameWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A61C426D153AA29C0048B53C /* Debug */,
+				A61C426E153AA29C0048B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A61C4233153AA29C0048B53C /* Project object */;
+}
